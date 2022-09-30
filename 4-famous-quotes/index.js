@@ -1,4 +1,2 @@
 
-let quote ="Innovation distinguishes between a leader and a follower";
-
-console.log(`Steve Jobs once said, “${quote}.”`)
+console.log(`Steve Jobs once said, “Innovation distinguishes between a leader and a follower.”`)
