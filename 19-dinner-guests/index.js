@@ -1,2 +1,5 @@
-let countries= ["Pakistan","India","Kuwait","USA","Dubai","New Zealand","Sri Lanka","Russia","Netharland"];
+let guests= ['Ali','Imran','Kamal','Amjad'];
+
+console.log(`Number of Guest ${guests.length}`);
+
 
