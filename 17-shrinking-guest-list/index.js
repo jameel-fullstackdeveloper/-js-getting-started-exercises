@@ -39,3 +39,20 @@ console.log(`${guests[3]}, You are invited to join dinner today. `);
 console.log(`${guests[4]}, You are invited to join dinner today. `);
 console.log(`${guests[5]}, You are invited to join dinner today. `);
 console.log(`${guests[6]}, You are invited to join dinner today. `);
+
+console.log("Sorry, I can invite only two people for dinner");
+ 
+//removing guests
+console.log(guests.pop() + ', sorry you can’t invite them to dinner.');
+console.log(guests.pop() + ', sorry you can’t invite them to dinner.');
+console.log(guests.pop() + ', sorry you can’t invite them to dinner.');
+console.log(guests.pop() + ', sorry you can’t invite them to dinner.');
+
+//print guests
+console.log(`${guests[0]}, You are invited to join dinner today. `);
+console.log(`${guests[1]}, You are invited to join dinner today. `);
+
+guests= [];
+
+console.log(guests);
+
