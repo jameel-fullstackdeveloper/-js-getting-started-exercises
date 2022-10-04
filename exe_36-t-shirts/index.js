@@ -1,9 +1,6 @@
 
+function make_shirt(size,message) {
+    console.log(`${message} Shirt Size is  ${size}`);
+};
 
- const animals= ['Dog','Hourse','Cat'];
-
- animals.forEach( a => {
-    console.log(`${a} would make a great pet`);
-})
-
-console.log(`Any of these animals would make a great pet!`);
+make_shirt("M", "jameel");
