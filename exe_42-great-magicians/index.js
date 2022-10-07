@@ -1,13 +1,19 @@
 
 const magician = ['David Copperfield','Doug Henning','Ricky Jay'];
 
+function make_great() {
+   
+   for(let i=0; i<magician.length;i++){
+      magician[i] = "Great " + magician[i];
+   }
+}
 
+function show_magicians(){
+   make_great()
 
-function make_great(){
-   magician.forEach(m => {
-      m = 'Great ' + m;
+    magician.forEach(m => {
       console.log(m);
    });
 }
 
-make_great(magician);
+show_magicians();
